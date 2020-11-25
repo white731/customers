@@ -7,7 +7,6 @@
 #   Character.create(name: 'Luke', movie: movies.first)
 require 'faker'
 
-
 u = User.create(email: "test@test.com", password: "password")
 10.times do 
   Customer.create(
